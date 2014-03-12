@@ -5,15 +5,15 @@ Adjudged 4th best in a class of 30 students, this app lets users play Hangman on
 
 ###Screenshots:
 
-![Splash Screen](https://raw.github.com/vgaonkar/ChartToppers/master/splashScreen.png)
-![Main Menu](https://raw.github.com/vgaonkar/ChartToppers/master/mainMenu.png)
-![Single Player](https://raw.github.com/vgaonkar/ChartToppers/master/singlePlayer.png)
-![Player Name](https://raw.github.com/vgaonkar/ChartToppers/master/playerName.png)
-![Single Player Screen](https://raw.github.com/vgaonkar/ChartToppers/master/singlePlayerScreen.png)
-![Play Progress](https://raw.github.com/vgaonkar/ChartToppers/master/playProgress.png)
-![Winner](https://raw.github.com/vgaonkar/ChartToppers/master/winner.png)
-![Multiplayer](https://raw.github.com/vgaonkar/ChartToppers/master/multiplayer.png)
-![Finding Players](https://raw.github.com/vgaonkar/ChartToppers/master/findingPlayers.png)
+![Splash Screen](https://raw.github.com/vgaonkar/Hangman/master/splashScreen.png)
+![Main Menu](https://raw.github.com/vgaonkar/Hangman/master/mainMenu.png)
+![Single Player](https://raw.github.com/vgaonkar/Hangman/master/singlePlayer.png)
+![Player Name](https://raw.github.com/vgaonkar/Hangman/master/playerName.png)
+![Single Player Screen](https://raw.github.com/vgaonkar/Hangman/master/singlePlayerScreen.png)
+![Play Progress](https://raw.github.com/vgaonkar/Hangman/master/playProgress.png)
+![Winner](https://raw.github.com/vgaonkar/Hangman/master/winner.png)
+![Multiplayer](https://raw.github.com/vgaonkar/Hangman/master/multiplayer.png)
+![Finding Players](https://raw.github.com/vgaonkar/Hangman/master/findingPlayers.png)
 
 ###Issues:
 - Works with iOS 6 but hasn't been tested for other versions.
