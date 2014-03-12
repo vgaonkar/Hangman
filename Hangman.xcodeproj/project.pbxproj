@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09002F68173F695C0095C8F6 /* hangmanIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09002F66173F695C0095C8F6 /* hangmanIcon@2x.png */; };
+		09002F69173F695C0095C8F6 /* hangmanIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 09002F67173F695C0095C8F6 /* hangmanIcon.png */; };
+		096EB4601740649100C5452C /* mainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB45E1740649100C5452C /* mainMenu.png */; };
+		096EB4611740649100C5452C /* mainMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB45F1740649100C5452C /* mainMenu@2x.png */; };
+		096EB464174065D400C5452C /* defaultBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB462174065D400C5452C /* defaultBackground.png */; };
+		096EB465174065D400C5452C /* defaultBackround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB463174065D400C5452C /* defaultBackround@2x.png */; };
+		096EB48217408E3300C5452C /* hangman1.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47417408E3300C5452C /* hangman1.png */; };
+		096EB48317408E3300C5452C /* hangman1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47517408E3300C5452C /* hangman1@2x.png */; };
+		096EB48417408E3300C5452C /* hangman2.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47617408E3300C5452C /* hangman2.png */; };
+		096EB48517408E3300C5452C /* hangman2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47717408E3300C5452C /* hangman2@2x.png */; };
+		096EB48617408E3300C5452C /* hangman3.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47817408E3300C5452C /* hangman3.png */; };
+		096EB48717408E3300C5452C /* hangman3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47917408E3300C5452C /* hangman3@2x.png */; };
+		096EB48817408E3300C5452C /* hangman4.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47A17408E3300C5452C /* hangman4.png */; };
+		096EB48917408E3300C5452C /* hangman4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47B17408E3300C5452C /* hangman4@2x.png */; };
+		096EB48A17408E3300C5452C /* hangman5.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47C17408E3300C5452C /* hangman5.png */; };
+		096EB48B17408E3300C5452C /* hangman5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47D17408E3300C5452C /* hangman5@2x.png */; };
+		096EB48C17408E3300C5452C /* hangman6.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47E17408E3300C5452C /* hangman6.png */; };
+		096EB48D17408E3300C5452C /* hangman6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB47F17408E3300C5452C /* hangman6@2x.png */; };
+		096EB48E17408E3300C5452C /* hangman7.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB48017408E3300C5452C /* hangman7.png */; };
+		096EB48F17408E3300C5452C /* hangman7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 096EB48117408E3300C5452C /* hangman7@2x.png */; };
+		09919E42173AB9DE009A765B /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09919E41173AB9DE009A765B /* MainMenuViewController.m */; };
+		09919E46173ABA6A009A765B /* SinglePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09919E45173ABA6A009A765B /* SinglePlayerViewController.m */; };
+		09919E49173ABA7D009A765B /* MultiPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09919E48173ABA7D009A765B /* MultiPlayerViewController.m */; };
+		09919E4C173ABADE009A765B /* ScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09919E4B173ABADE009A765B /* ScoresViewController.m */; };
+		09919E51173ABCE1009A765B /* HangmanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09919E50173ABCE1009A765B /* HangmanViewController.m */; };
+		09919E58173ADA44009A765B /* WordList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09919E57173ADA44009A765B /* WordList.plist */; };
+		09919E5B173AE1E6009A765B /* Words.m in Sources */ = {isa = PBXBuildFile; fileRef = 09919E5A173AE1E6009A765B /* Words.m */; };
+		09A62D8D1741426E00B07BDB /* 7-forrest-back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A62D831741426E00B07BDB /* 7-forrest-back-button.png */; };
+		09A62D8E1741426E00B07BDB /* 7-forrest-back-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A62D841741426E00B07BDB /* 7-forrest-back-button@2x.png */; };
+		09A62D8F1741426E00B07BDB /* 7-forrest-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A62D851741426E00B07BDB /* 7-forrest-background.jpg */; };
+		09A62D901741426E00B07BDB /* 7-forrest-background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09A62D861741426E00B07BDB /* 7-forrest-background@2x.jpg */; };
+		09A62D911741426E00B07BDB /* 7-forrest-bar-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A62D871741426E00B07BDB /* 7-forrest-bar-button.png */; };
+		09A62D921741426E00B07BDB /* 7-forrest-bar-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A62D881741426E00B07BDB /* 7-forrest-bar-button@2x.png */; };
+		09A62D931741426E00B07BDB /* 7-forrest-menu-bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A62D891741426E00B07BDB /* 7-forrest-menu-bar.png */; };
+		09A62D941741426E00B07BDB /* 7-forrest-menu-bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A62D8A1741426E00B07BDB /* 7-forrest-menu-bar@2x.png */; };
+		09A62D951741426E00B07BDB /* 7-forrest-settings-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A62D8B1741426E00B07BDB /* 7-forrest-settings-button.png */; };
+		09A62D961741426E00B07BDB /* 7-forrest-settings-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09A62D8C1741426E00B07BDB /* 7-forrest-settings-button@2x.png */; };
+		09CC943D1739D3E8002A0DC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CC943C1739D3E8002A0DC7 /* UIKit.framework */; };
+		09CC943F1739D3E8002A0DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CC943E1739D3E8002A0DC7 /* Foundation.framework */; };
+		09CC94411739D3E8002A0DC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CC94401739D3E8002A0DC7 /* CoreGraphics.framework */; };
+		09CC94471739D3E8002A0DC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09CC94451739D3E8002A0DC7 /* InfoPlist.strings */; };
+		09CC94491739D3E8002A0DC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CC94481739D3E8002A0DC7 /* main.m */; };
+		09CC944D1739D3E8002A0DC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CC944C1739D3E8002A0DC7 /* AppDelegate.m */; };
+		09CC944F1739D3E8002A0DC7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CC944E1739D3E8002A0DC7 /* Default.png */; };
+		09CC94511739D3E8002A0DC7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CC94501739D3E8002A0DC7 /* Default@2x.png */; };
+		09CC94531739D3E8002A0DC7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09CC94521739D3E8002A0DC7 /* Default-568h@2x.png */; };
+		09CC94561739D3E8002A0DC7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CC94541739D3E8002A0DC7 /* MainStoryboard.storyboard */; };
+		09CC94601739D439002A0DC7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CC945F1739D439002A0DC7 /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09002F66173F695C0095C8F6 /* hangmanIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangmanIcon@2x.png"; sourceTree = "<group>"; };
+		09002F67173F695C0095C8F6 /* hangmanIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangmanIcon.png; sourceTree = "<group>"; };
+		096EB45E1740649100C5452C /* mainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainMenu.png; sourceTree = "<group>"; };
+		096EB45F1740649100C5452C /* mainMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainMenu@2x.png"; sourceTree = "<group>"; };
+		096EB462174065D400C5452C /* defaultBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultBackground.png; sourceTree = "<group>"; };
+		096EB463174065D400C5452C /* defaultBackround@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultBackround@2x.png"; sourceTree = "<group>"; };
+		096EB47417408E3300C5452C /* hangman1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman1.png; sourceTree = "<group>"; };
+		096EB47517408E3300C5452C /* hangman1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman1@2x.png"; sourceTree = "<group>"; };
+		096EB47617408E3300C5452C /* hangman2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman2.png; sourceTree = "<group>"; };
+		096EB47717408E3300C5452C /* hangman2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman2@2x.png"; sourceTree = "<group>"; };
+		096EB47817408E3300C5452C /* hangman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman3.png; sourceTree = "<group>"; };
+		096EB47917408E3300C5452C /* hangman3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman3@2x.png"; sourceTree = "<group>"; };
+		096EB47A17408E3300C5452C /* hangman4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman4.png; sourceTree = "<group>"; };
+		096EB47B17408E3300C5452C /* hangman4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman4@2x.png"; sourceTree = "<group>"; };
+		096EB47C17408E3300C5452C /* hangman5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman5.png; sourceTree = "<group>"; };
+		096EB47D17408E3300C5452C /* hangman5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman5@2x.png"; sourceTree = "<group>"; };
+		096EB47E17408E3300C5452C /* hangman6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman6.png; sourceTree = "<group>"; };
+		096EB47F17408E3300C5452C /* hangman6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman6@2x.png"; sourceTree = "<group>"; };
+		096EB48017408E3300C5452C /* hangman7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hangman7.png; sourceTree = "<group>"; };
+		096EB48117408E3300C5452C /* hangman7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hangman7@2x.png"; sourceTree = "<group>"; };
+		09919E40173AB9DE009A765B /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		09919E41173AB9DE009A765B /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		09919E44173ABA6A009A765B /* SinglePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePlayerViewController.h; sourceTree = "<group>"; };
+		09919E45173ABA6A009A765B /* SinglePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePlayerViewController.m; sourceTree = "<group>"; };
+		09919E47173ABA7D009A765B /* MultiPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiPlayerViewController.h; sourceTree = "<group>"; };
+		09919E48173ABA7D009A765B /* MultiPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiPlayerViewController.m; sourceTree = "<group>"; };
+		09919E4A173ABADE009A765B /* ScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoresViewController.h; sourceTree = "<group>"; };
+		09919E4B173ABADE009A765B /* ScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoresViewController.m; sourceTree = "<group>"; };
+		09919E4F173ABCE1009A765B /* HangmanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangmanViewController.h; sourceTree = "<group>"; };
+		09919E50173ABCE1009A765B /* HangmanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangmanViewController.m; sourceTree = "<group>"; };
+		09919E57173ADA44009A765B /* WordList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WordList.plist; sourceTree = "<group>"; };
+		09919E59173AE1E6009A765B /* Words.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Words.h; sourceTree = "<group>"; };
+		09919E5A173AE1E6009A765B /* Words.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Words.m; sourceTree = "<group>"; };
+		09A62D831741426E00B07BDB /* 7-forrest-back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-forrest-back-button.png"; sourceTree = "<group>"; };
+		09A62D841741426E00B07BDB /* 7-forrest-back-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-forrest-back-button@2x.png"; sourceTree = "<group>"; };
+		09A62D851741426E00B07BDB /* 7-forrest-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-forrest-background.jpg"; sourceTree = "<group>"; };
+		09A62D861741426E00B07BDB /* 7-forrest-background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-forrest-background@2x.jpg"; sourceTree = "<group>"; };
+		09A62D871741426E00B07BDB /* 7-forrest-bar-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-forrest-bar-button.png"; sourceTree = "<group>"; };
+		09A62D881741426E00B07BDB /* 7-forrest-bar-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-forrest-bar-button@2x.png"; sourceTree = "<group>"; };
+		09A62D891741426E00B07BDB /* 7-forrest-menu-bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-forrest-menu-bar.png"; sourceTree = "<group>"; };
+		09A62D8A1741426E00B07BDB /* 7-forrest-menu-bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-forrest-menu-bar@2x.png"; sourceTree = "<group>"; };
+		09A62D8B1741426E00B07BDB /* 7-forrest-settings-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-forrest-settings-button.png"; sourceTree = "<group>"; };
+		09A62D8C1741426E00B07BDB /* 7-forrest-settings-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7-forrest-settings-button@2x.png"; sourceTree = "<group>"; };
+		09CC94391739D3E8002A0DC7 /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09CC943C1739D3E8002A0DC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09CC943E1739D3E8002A0DC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09CC94401739D3E8002A0DC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09CC94441739D3E8002A0DC7 /* Hangman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hangman-Info.plist"; sourceTree = "<group>"; };
+		09CC94461739D3E8002A0DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09CC94481739D3E8002A0DC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09CC944A1739D3E8002A0DC7 /* Hangman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hangman-Prefix.pch"; sourceTree = "<group>"; };
+		09CC944B1739D3E8002A0DC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09CC944C1739D3E8002A0DC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09CC944E1739D3E8002A0DC7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		09CC94501739D3E8002A0DC7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		09CC94521739D3E8002A0DC7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		09CC94551739D3E8002A0DC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		09CC945F1739D439002A0DC7 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09CC94361739D3E8002A0DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CC94601739D439002A0DC7 /* GameKit.framework in Frameworks */,
+				09CC943D1739D3E8002A0DC7 /* UIKit.framework in Frameworks */,
+				09CC943F1739D3E8002A0DC7 /* Foundation.framework in Frameworks */,
+				09CC94411739D3E8002A0DC7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09002F6A173F69680095C8F6 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				09002F66173F695C0095C8F6 /* hangmanIcon@2x.png */,
+				09002F67173F695C0095C8F6 /* hangmanIcon.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		096EB4591740598200C5452C /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				09A62D971741427400B07BDB /* Navigation backgrounds */,
+				09A62D821741424F00B07BDB /* View backgrounds */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		096EB49017408E3A00C5452C /* StickMan */ = {
+			isa = PBXGroup;
+			children = (
+				096EB47417408E3300C5452C /* hangman1.png */,
+				096EB47517408E3300C5452C /* hangman1@2x.png */,
+				096EB47617408E3300C5452C /* hangman2.png */,
+				096EB47717408E3300C5452C /* hangman2@2x.png */,
+				096EB47817408E3300C5452C /* hangman3.png */,
+				096EB47917408E3300C5452C /* hangman3@2x.png */,
+				096EB47A17408E3300C5452C /* hangman4.png */,
+				096EB47B17408E3300C5452C /* hangman4@2x.png */,
+				096EB47C17408E3300C5452C /* hangman5.png */,
+				096EB47D17408E3300C5452C /* hangman5@2x.png */,
+				096EB47E17408E3300C5452C /* hangman6.png */,
+				096EB47F17408E3300C5452C /* hangman6@2x.png */,
+				096EB48017408E3300C5452C /* hangman7.png */,
+				096EB48117408E3300C5452C /* hangman7@2x.png */,
+			);
+			name = StickMan;
+			sourceTree = "<group>";
+		};
+		09919E43173ABA29009A765B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09CC94541739D3E8002A0DC7 /* MainStoryboard.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		09919E55173AD9D9009A765B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09919E59173AE1E6009A765B /* Words.h */,
+				09919E5A173AE1E6009A765B /* Words.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		09919E56173AD9FE009A765B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09919E4F173ABCE1009A765B /* HangmanViewController.h */,
+				09919E50173ABCE1009A765B /* HangmanViewController.m */,
+				09919E4A173ABADE009A765B /* ScoresViewController.h */,
+				09919E4B173ABADE009A765B /* ScoresViewController.m */,
+				09919E40173AB9DE009A765B /* MainMenuViewController.h */,
+				09919E41173AB9DE009A765B /* MainMenuViewController.m */,
+				09919E44173ABA6A009A765B /* SinglePlayerViewController.h */,
+				09919E45173ABA6A009A765B /* SinglePlayerViewController.m */,
+				09919E47173ABA7D009A765B /* MultiPlayerViewController.h */,
+				09919E48173ABA7D009A765B /* MultiPlayerViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		09A62D821741424F00B07BDB /* View backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				096EB462174065D400C5452C /* defaultBackground.png */,
+				096EB463174065D400C5452C /* defaultBackround@2x.png */,
+				096EB45E1740649100C5452C /* mainMenu.png */,
+				096EB45F1740649100C5452C /* mainMenu@2x.png */,
+			);
+			name = "View backgrounds";
+			sourceTree = "<group>";
+		};
+		09A62D971741427400B07BDB /* Navigation backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				09A62D831741426E00B07BDB /* 7-forrest-back-button.png */,
+				09A62D841741426E00B07BDB /* 7-forrest-back-button@2x.png */,
+				09A62D851741426E00B07BDB /* 7-forrest-background.jpg */,
+				09A62D861741426E00B07BDB /* 7-forrest-background@2x.jpg */,
+				09A62D871741426E00B07BDB /* 7-forrest-bar-button.png */,
+				09A62D881741426E00B07BDB /* 7-forrest-bar-button@2x.png */,
+				09A62D891741426E00B07BDB /* 7-forrest-menu-bar.png */,
+				09A62D8A1741426E00B07BDB /* 7-forrest-menu-bar@2x.png */,
+				09A62D8B1741426E00B07BDB /* 7-forrest-settings-button.png */,
+				09A62D8C1741426E00B07BDB /* 7-forrest-settings-button@2x.png */,
+			);
+			name = "Navigation backgrounds";
+			sourceTree = "<group>";
+		};
+		09CC94301739D3E8002A0DC7 = {
+			isa = PBXGroup;
+			children = (
+				09CC94421739D3E8002A0DC7 /* Hangman */,
+				09CC943B1739D3E8002A0DC7 /* Frameworks */,
+				09CC943A1739D3E8002A0DC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09CC943A1739D3E8002A0DC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09CC94391739D3E8002A0DC7 /* Hangman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09CC943B1739D3E8002A0DC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09CC945F1739D439002A0DC7 /* GameKit.framework */,
+				09CC943C1739D3E8002A0DC7 /* UIKit.framework */,
+				09CC943E1739D3E8002A0DC7 /* Foundation.framework */,
+				09CC94401739D3E8002A0DC7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09CC94421739D3E8002A0DC7 /* Hangman */ = {
+			isa = PBXGroup;
+			children = (
+				09919E55173AD9D9009A765B /* Models */,
+				09919E43173ABA29009A765B /* Views */,
+				09919E56173AD9FE009A765B /* Controllers */,
+				09CC94431739D3E8002A0DC7 /* Supporting Files */,
+			);
+			path = Hangman;
+			sourceTree = "<group>";
+		};
+		09CC94431739D3E8002A0DC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				096EB49017408E3A00C5452C /* StickMan */,
+				096EB4591740598200C5452C /* Backgrounds */,
+				09002F6A173F69680095C8F6 /* Icons */,
+				09919E57173ADA44009A765B /* WordList.plist */,
+				09CC944B1739D3E8002A0DC7 /* AppDelegate.h */,
+				09CC944C1739D3E8002A0DC7 /* AppDelegate.m */,
+				09CC94441739D3E8002A0DC7 /* Hangman-Info.plist */,
+				09CC94451739D3E8002A0DC7 /* InfoPlist.strings */,
+				09CC94481739D3E8002A0DC7 /* main.m */,
+				09CC944A1739D3E8002A0DC7 /* Hangman-Prefix.pch */,
+				09CC944E1739D3E8002A0DC7 /* Default.png */,
+				09CC94501739D3E8002A0DC7 /* Default@2x.png */,
+				09CC94521739D3E8002A0DC7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09CC94381739D3E8002A0DC7 /* Hangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09CC945C1739D3E8002A0DC7 /* Build configuration list for PBXNativeTarget "Hangman" */;
+			buildPhases = (
+				09CC94351739D3E8002A0DC7 /* Sources */,
+				09CC94361739D3E8002A0DC7 /* Frameworks */,
+				09CC94371739D3E8002A0DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hangman;
+			productName = Hangman;
+			productReference = 09CC94391739D3E8002A0DC7 /* Hangman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09CC94311739D3E8002A0DC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vijay R. Gaonkar";
+			};
+			buildConfigurationList = 09CC94341739D3E8002A0DC7 /* Build configuration list for PBXProject "Hangman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09CC94301739D3E8002A0DC7;
+			productRefGroup = 09CC943A1739D3E8002A0DC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09CC94381739D3E8002A0DC7 /* Hangman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09CC94371739D3E8002A0DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CC94471739D3E8002A0DC7 /* InfoPlist.strings in Resources */,
+				09CC944F1739D3E8002A0DC7 /* Default.png in Resources */,
+				09CC94511739D3E8002A0DC7 /* Default@2x.png in Resources */,
+				09CC94531739D3E8002A0DC7 /* Default-568h@2x.png in Resources */,
+				09CC94561739D3E8002A0DC7 /* MainStoryboard.storyboard in Resources */,
+				09919E58173ADA44009A765B /* WordList.plist in Resources */,
+				09002F68173F695C0095C8F6 /* hangmanIcon@2x.png in Resources */,
+				09002F69173F695C0095C8F6 /* hangmanIcon.png in Resources */,
+				096EB4601740649100C5452C /* mainMenu.png in Resources */,
+				096EB4611740649100C5452C /* mainMenu@2x.png in Resources */,
+				096EB464174065D400C5452C /* defaultBackground.png in Resources */,
+				096EB465174065D400C5452C /* defaultBackround@2x.png in Resources */,
+				096EB48217408E3300C5452C /* hangman1.png in Resources */,
+				096EB48317408E3300C5452C /* hangman1@2x.png in Resources */,
+				096EB48417408E3300C5452C /* hangman2.png in Resources */,
+				096EB48517408E3300C5452C /* hangman2@2x.png in Resources */,
+				096EB48617408E3300C5452C /* hangman3.png in Resources */,
+				096EB48717408E3300C5452C /* hangman3@2x.png in Resources */,
+				096EB48817408E3300C5452C /* hangman4.png in Resources */,
+				096EB48917408E3300C5452C /* hangman4@2x.png in Resources */,
+				096EB48A17408E3300C5452C /* hangman5.png in Resources */,
+				096EB48B17408E3300C5452C /* hangman5@2x.png in Resources */,
+				096EB48C17408E3300C5452C /* hangman6.png in Resources */,
+				096EB48D17408E3300C5452C /* hangman6@2x.png in Resources */,
+				096EB48E17408E3300C5452C /* hangman7.png in Resources */,
+				096EB48F17408E3300C5452C /* hangman7@2x.png in Resources */,
+				09A62D8D1741426E00B07BDB /* 7-forrest-back-button.png in Resources */,
+				09A62D8E1741426E00B07BDB /* 7-forrest-back-button@2x.png in Resources */,
+				09A62D8F1741426E00B07BDB /* 7-forrest-background.jpg in Resources */,
+				09A62D901741426E00B07BDB /* 7-forrest-background@2x.jpg in Resources */,
+				09A62D911741426E00B07BDB /* 7-forrest-bar-button.png in Resources */,
+				09A62D921741426E00B07BDB /* 7-forrest-bar-button@2x.png in Resources */,
+				09A62D931741426E00B07BDB /* 7-forrest-menu-bar.png in Resources */,
+				09A62D941741426E00B07BDB /* 7-forrest-menu-bar@2x.png in Resources */,
+				09A62D951741426E00B07BDB /* 7-forrest-settings-button.png in Resources */,
+				09A62D961741426E00B07BDB /* 7-forrest-settings-button@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09CC94351739D3E8002A0DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CC94491739D3E8002A0DC7 /* main.m in Sources */,
+				09CC944D1739D3E8002A0DC7 /* AppDelegate.m in Sources */,
+				09919E42173AB9DE009A765B /* MainMenuViewController.m in Sources */,
+				09919E46173ABA6A009A765B /* SinglePlayerViewController.m in Sources */,
+				09919E49173ABA7D009A765B /* MultiPlayerViewController.m in Sources */,
+				09919E4C173ABADE009A765B /* ScoresViewController.m in Sources */,
+				09919E51173ABCE1009A765B /* HangmanViewController.m in Sources */,
+				09919E5B173AE1E6009A765B /* Words.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09CC94451739D3E8002A0DC7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09CC94461739D3E8002A0DC7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09CC94541739D3E8002A0DC7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09CC94551739D3E8002A0DC7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09CC945A1739D3E8002A0DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09CC945B1739D3E8002A0DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09CC945D1739D3E8002A0DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09CC945E1739D3E8002A0DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09CC94341739D3E8002A0DC7 /* Build configuration list for PBXProject "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CC945A1739D3E8002A0DC7 /* Debug */,
+				09CC945B1739D3E8002A0DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09CC945C1739D3E8002A0DC7 /* Build configuration list for PBXNativeTarget "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CC945D1739D3E8002A0DC7 /* Debug */,
+				09CC945E1739D3E8002A0DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09CC94311739D3E8002A0DC7 /* Project object */;
+}
