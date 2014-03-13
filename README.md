@@ -20,4 +20,4 @@ Adjudged 4th best in a class of 30 students, this app lets users play Hangman on
 - Has a few bugs which I haven't had time to fix.
 
 ###Disclaimer:
-The artwork used in this app is property of Optime Software. It is used in their app (which has the same name). I didn't have time to design my own artwork so I used theirs after sending an email to the developers. 
+Some of the artwork used in this app (like the stick man) is property of Optime Software. It is used in their app (which has the same name). I didn't have time to design my own artwork so I used theirs after sending an email to the developers. 
