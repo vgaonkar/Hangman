@@ -192,7 +192,7 @@
     switch (buttonIndex) {
         case 0:
         {
-            [self configureHangman];
+            [self.navigationController popViewControllerAnimated:YES];
             break;
         }
             
