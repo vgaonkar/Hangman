@@ -1,7 +1,7 @@
 Hangman
 =======
 
-Adjudged 4th best in a class of 30 students, this app lets users play Hangman on the iPhone and the iPod. It supports both single player and multiplayer options. The multiplayer option lets users compete against each other by connecting devices via Bluetooth (Not supported by similar apps in the App Store when this app was created). Users can specify a category from which each device auto generates a word and sends it to the other device. The first user to correctly guess the word, wins.
+Adjudged 4th best in a class of 38 students, this app lets users play Hangman on the iPhone and the iPod. It supports both single player and multiplayer options. The multiplayer option lets users compete against each other by connecting devices via Bluetooth (Not supported by similar apps in the App Store when this app was created). Users can specify a category from which each device auto generates a word and sends it to the other device. The first user to correctly guess the word, wins.
 
 ###Screenshots:
 
